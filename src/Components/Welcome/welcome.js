@@ -7,7 +7,6 @@ export const Welcome = () => {
 		<>
 			<div className={classes.cross}>
 				<GiHamburgerMenu />
-				hej
 			</div>
 			<div className={classes.welcomeContainer}>
 				<div className={classes.logoContainer}>
