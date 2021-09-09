@@ -1,0 +1,87 @@
+.welcomeContainer {
+	background-image: radial-gradient(#444444, #232322, #131312);
+	background-position: center;
+	height: 100vh;
+	position: relative;
+}
+.logoContainer {
+	position: absolute;
+	top: 41%;
+	right: 50%;
+}
+
+.logo {
+	width: 70vh;
+	display: flex;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 21vh;
+	position: relative;
+	right: -50%;
+	background-image: url('../../assets/logo_transparent_background.png');
+	animation: fadeIn linear 5s;
+	-webkit-animation: fadeIn linear 5s;
+	-moz-animation: fadeIn linear 5s;
+	-o-animation: fadeIn linear 5s;
+	-ms-animation: fadeIn linear 5s;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.cross {
+	position: absolute;
+	color: white;
+	z-index: 2;
+	height: 55px;
+	width: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #f705f8;
+	font-size: 20px;
+	/* cursor: pointer; */
+}
