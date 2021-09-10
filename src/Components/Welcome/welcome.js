@@ -1,12 +1,16 @@
 import React from 'react';
 import classes from './welcome.module.css';
-import { GiHamburgerMenu } from 'react-icons/gi';
+import Hamburger from 'hamburger-react';
+import { LeftSidebar } from '../LeftSidebar/leftSidebar';
 
-export const Welcome = () => {
+export const Welcome = (props) => {
+	const dropdown = props.dropdown;
+	const setDropdown = props.setDropdown;
 	return (
 		<>
-			<div className={classes.cross}>
-				<GiHamburgerMenu />
+			<LeftSidebar dropdown={dropdown} />
+			<div className={classes.cross} onClick={() => setDropdown(!dropdown)}>
+				<Hamburger size={20} />
 			</div>
 			<div className={classes.welcomeContainer}>
 				<div className={classes.logoContainer}>
