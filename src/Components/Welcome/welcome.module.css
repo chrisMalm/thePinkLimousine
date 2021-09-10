@@ -11,12 +11,12 @@
 }
 
 .logo {
-	width: 40vh;
+	width: 70vh;
 	display: flex;
 	justify-content: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	height: 20vh;
+	height: 21vh;
 	position: relative;
 	right: -50%;
 	background-image: url('../../assets/logo_transparent_background.png');
@@ -83,4 +83,12 @@
 	color: #f705f8;
 	font-size: 20px;
 	/* cursor: pointer; */
+}
+
+/* mobile view  */
+@media (max-width: 990px) {
+	.logo {
+		width: 40vh;
+		height: 20vh;
+	}
 }
