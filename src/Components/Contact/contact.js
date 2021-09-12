@@ -10,7 +10,7 @@ export const Contact = () => {
 			<div className={classes.wrapperSocialMedia}>
 				<i class='fab fa-instagram'></i>
 			</div>
-			<div className={classes.wrapperSocialMedia}>
+			<div className={([classes.wrapperSocialMedia], [classes.mail].join(''))}>
 				<i class='fas fa-envelope-square'></i>
 			</div>
 		</div>

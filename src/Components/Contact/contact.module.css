@@ -14,11 +14,43 @@
 	align-items: center;
 	margin-right: 70px;
 	border-radius: 50%;
-	background: pink;
+	background: #cd8ec2;
 	cursor: pointer;
+}
+
+.wrapperSocialMedia:hover {
+	background: #952080;
+}
+
+.mail {
+	justify-content: center;
+	height: 50px;
+	width: 50px;
+	display: flex;
+	align-items: center;
+	border-radius: 50%;
+	background: #cd8ec2;
+	cursor: pointer;
+	margin: 20px 40px 20px 0px;
 }
 
 i {
 	font-size: 30px;
 	color: #150a13;
+}
+
+@media (max-width: 990px) {
+	i {
+		color: #952080;
+	}
+	.wrapperSocialMedia {
+		height: 0px;
+		width: 0px;
+		margin: 30px;
+	}
+	.mail {
+		height: 0px;
+		width: 0px;
+		margin: 30px 50px 30px 30px;
+	}
 }
