@@ -8,9 +8,9 @@ export const Welcome = (props) => {
 	const setDropdown = props.setDropdown;
 	return (
 		<>
-			<LeftSidebar dropdown={dropdown} />
+			<LeftSidebar dropdown={dropdown} setDropdown={setDropdown} />
 			<div className={classes.cross} onClick={() => setDropdown(!dropdown)}>
-				<Hamburger size={20} />
+				<Hamburger size={20} toggled={dropdown} toggle={setDropdown} />
 			</div>
 			<div className={classes.welcomeContainer}>
 				<div className={classes.logoContainer}>
