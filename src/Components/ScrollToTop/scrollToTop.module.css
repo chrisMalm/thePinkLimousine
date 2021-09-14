@@ -1,0 +1,19 @@
+.wrapperScrollToTop {
+	position: fixed;
+	left: 50%;
+	bottom: 12px;
+}
+.scrollToTop {
+	position: relative;
+	left: -50%;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background: #fa8fcd;
+	color: #f4f4f4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 3;
+	cursor: pointer;
+}

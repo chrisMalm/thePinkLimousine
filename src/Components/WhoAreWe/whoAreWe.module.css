@@ -1,0 +1,47 @@
+.whoAreWeContainer {
+	width: 100%;
+	height: auto;
+	display: flex;
+	font-family: 'Anton', sans-serif;
+}
+.wrapperPersonOne {
+	width: 50%;
+}
+
+.wrapperPersonTwo {
+	width: 50%;
+}
+.textPersonOne {
+	text-align: center;
+	padding: 40px;
+}
+.textPersonTwo {
+	text-align: center;
+	padding: 40px;
+}
+.taxiCap {
+	margin-left: 70px;
+	padding-top: 50px;
+	width: 20%;
+}
+span {
+	font-family: 'Caveat', cursive;
+	font-size: 20px;
+}
+
+@media (max-width: 990px) {
+	.whoAreWeContainer {
+		flex-direction: column;
+	}
+	.wrapperPersonOne {
+		width: 100%;
+	}
+	.wrapperPersonTwo {
+		width: 100%;
+	}
+	.taxiCap {
+		margin-left: 37px;
+		min-width: 130px;
+		height: 100px;
+	}
+}
