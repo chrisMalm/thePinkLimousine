@@ -14,10 +14,16 @@ export const LeftSidebar = (props) => {
 					: [classes.activeLeftSidebarContainer, classes.test].join(' ')
 			}>
 			<div className={classes.wrapperLinks}>
-				<a href='#whatWeOffer' className={classes.link}>
+				<a
+					href='#whatWeOffer'
+					className={classes.link}
+					onClick={() => props.setDropdown(!dropdown)}>
 					What we offer
 				</a>
-				<a href='#bookUs' className={classes.link}>
+				<a
+					href='#bookUs'
+					className={classes.link}
+					onClick={() => props.setDropdown(!dropdown)}>
 					Book Us
 				</a>
 				<a
